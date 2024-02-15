@@ -23,6 +23,7 @@ h1 {
 
 h2 {
     font-size: 3rem;
+    font-weight: 900;
 }
 
 h3 {
@@ -246,4 +247,17 @@ a {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.contenido-nosotros {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    column-gap: 4rem;
+}
+
+.informacion-nosotros {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
